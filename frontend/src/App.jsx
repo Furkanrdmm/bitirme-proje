@@ -1,4 +1,5 @@
 import "./App.css";
+import Blogs from "./components/Blogs/Blogs";
 import Campaigns from "./components/Campaigns/Campaigns";
 import Categories from "./components/Categories/Categories";
 import Footer from "./components/Layout/Footer/Footer";
@@ -14,6 +15,7 @@ function App() {
       <Sliders />
       <Categories/>
       <Products/>
+      <Blogs/>
       <Campaigns/>
       <Policy />
       <Footer />
