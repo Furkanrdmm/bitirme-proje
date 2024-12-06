@@ -1,27 +1,16 @@
 import "./App.css";
-import Blogs from "./components/Blogs/Blogs";
-import Brands from "./components/Brands/Brands";
-import Campaigns from "./components/Campaigns/Campaigns";
-import Categories from "./components/Categories/Categories";
-import Footer from "./components/Layout/Footer/Footer";
-import Header from "./components/Layout/Header/Header";
-import Policy from "./components/Layout/Policy/Policy";
-import Products from "./components/Products/Products";
-import Sliders from "./components/Slider/Sliders";
+import React from "react";
+import HomePage from "./pages/HomePage";
+import ShopPage from "./pages/ShopPage";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Sliders />
-      <Categories/>
-      <Products/>
-      <Blogs/>
-      <Brands/>
-      <Campaigns/>
-      <Policy />
-      <Footer />
-    </div>
+    <React.Fragment>
+      {/* <HomePage /> */}
+      {/* <ShopPage /> */}
+      <ContactPage/>
+    </React.Fragment>
   );
 }
 
